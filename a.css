@@ -1,4 +1,4 @@
-/* General styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-/* Container that holds the content */
+
 .container {
     background-color: #fff;
     padding: 20px;
@@ -23,14 +23,13 @@ body {
     width: 400px;
 }
 
-/* Title */
+
 h1 {
     text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Input and label styling */
 .upload-section, .input-section {
     margin-bottom: 20px;
 }
