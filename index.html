@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV File Reader</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload CSV. Files</h1>
+        <div class="upload-section">
+            <label for="bigFileInput">Upload the Big CSV File:</label>
+            <input type="file" id="bigFileInput" accept=".csv">
+        </div>
+
+        <div class="upload-section">
+            <label for="smallFileInput">Upload the Small CSV File:</label>
+            <input type="file" id="smallFileInput" accept=".csv">
+        </div>
+
+        <div class="input-section">
+            <label for="partJobNumber">Enter something numebr:</label>
+            <input type="text" id="partJobNumber" placeholder="Enter part or job number">
+        </div>
+
+        <div class="button-group">
+            <button id="startProcessingButton" class="button">Start Processing</button>
+            <button id="downloadButton" class="button" style="display: none;">Download Modified CSV</button>
+        </div>
+    </div>
+
+    <script src="a.js"></script>
+</body>
+</html>
